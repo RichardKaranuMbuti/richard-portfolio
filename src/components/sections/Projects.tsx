@@ -12,7 +12,7 @@ const projects = [
     impact: "1000+ daily resumes",
     tech: ["Python", "FastAPI", "LangChain", "Next.js", "Azure"],
     metrics: {
-      users: "500+",
+      users: "5000+",
       performance: "97%",
       uptime: "99.9%"
     },
@@ -25,7 +25,7 @@ const projects = [
     impact: "20x faster reviews",
     tech: ["Django", "React", "Azure Cognitive Services", "PostgreSQL"],
     metrics: {
-      users: "50+",
+      users: "1000+",
       performance: "95%",
       uptime: "99.9%"
     },
@@ -38,7 +38,7 @@ const projects = [
     impact: "75% faster response",
     tech: ["Node.js", "TypeScript", "MongoDB", "AWS"],
     metrics: {
-      users: "200+",
+      users: "20000+",
       performance: "200ms",
       uptime: "99.9%"
     },
@@ -51,7 +51,7 @@ const projects = [
     impact: "90% accuracy",
     tech: ["Python", "LangGraph", "FastAPI", "Azure"],
     metrics: {
-      users: "100+",
+      users: "1000+",
       performance: "90%",
       uptime: "99.9%"
     },
