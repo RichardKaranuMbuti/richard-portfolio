@@ -1,0 +1,138 @@
+{
+  "personal": {
+    "name": "Richard Karanu",
+    "title": "Senior Full Stack Software Engineer",
+    "location": "Nairobi, Kenya",
+    "email": "thisforrichard@gmail.com",
+    "linkedin": "https://linkedin.com/in/richardkaranu",
+    "github": "https://github.com/RichardKaranuMbuti",
+    "tagline": "Building the Future, One Line at a Time",
+    "bio": "Senior Full Stack Engineer with 6+ years of hands-on product experience building and shipping real products in VC-backed startups and high-growth companies. Proven track record of taking complete ownership from concept to deployment."
+  },
+  "highlights": [
+    { "value": "6+", "label": "Years Experience" },
+    { "value": "1000+", "label": "Daily Resumes Processed" },
+    { "value": "75%", "label": "Performance Improvement" },
+    { "value": "99.9%", "label": "Uptime Achieved" }
+  ],
+  "skills": {
+    "languages": ["Python", "Java", "TypeScript", "JavaScript", "SQL"],
+    "frontend": ["React.js", "Next.js", "Tailwind CSS", "HTML5", "CSS3"],
+    "backend": ["Django", "Spring Boot", "Node.js", "FastAPI", "Express"],
+    "infrastructure": ["AWS", "Azure", "Docker", "Kubernetes", "CI/CD"],
+    "databases": ["PostgreSQL", "MongoDB", "Redis", "NoSQL"],
+    "ai": ["LangGraph", "LangChain", "OpenAI API", "Azure Cognitive Services"],
+    "learning": ["Go", "Mobile Development", "Agentic Computing"]
+  },
+  "experience": [
+    {
+      "company": "Resmatcha",
+      "role": "Founding Software Engineer",
+      "type": "AI in HR/Recruitment",
+      "period": "Feb 2025 - Current",
+      "location": "Remote",
+      "highlights": [
+        "Built entire technical infrastructure from zero for AI-driven job-resume matching platform",
+        "Shipped production-ready product processing 1,000+ resumes daily with 97% matching accuracy",
+        "Led technical decision-making and architecture choices",
+        "Managed full product lifecycle from MVP to scale"
+      ],
+      "tech": ["Python", "TypeScript", "FastAPI", "Celery", "Docker", "Kubernetes", "Azure", "Next.js", "LangChain", "PostgreSQL"]
+    },
+    {
+      "company": "Kreatoors AI",
+      "role": "Full Stack Software Engineer",
+      "type": "HR AI Advocacy",
+      "period": "Jan 2025 - Apr 2025",
+      "location": "Germany, Remote",
+      "highlights": [
+        "Architected secure multi-tenant API infrastructure achieving 99.9% uptime",
+        "Optimized API performance, reducing response time from 800ms to 200ms",
+        "Led onboarding and mentoring of 3 new engineers",
+        "Established comprehensive API documentation improving onboarding by 60%"
+      ],
+      "tech": ["Node.js", "TypeScript", "Next.js", "Express", "MongoDB", "OpenAI API", "AWS"]
+    },
+    {
+      "company": "Complasset",
+      "role": "Full Stack Software Engineer",
+      "type": "FinTech/Compliance",
+      "period": "Jun 2024 - Nov 2024",
+      "location": "Spain, Remote",
+      "highlights": [
+        "Architected AI-powered compliance platform reducing document review time by 20x",
+        "Implemented Azure Cognitive Services pipeline processing 1,000+ pages daily",
+        "Engineered real-time news verification system reducing false positives by 40%",
+        "Designed secure document handling system achieving SOC2 compliance"
+      ],
+      "tech": ["Python", "Django", "FastAPI", "React", "TypeScript", "NestJS", "LangGraph", "Azure", "PostgreSQL"]
+    },
+    {
+      "company": "Miksi AI",
+      "role": "Full Stack Software Engineer",
+      "type": "AI as a Service",
+      "period": "Jun 2023 - Apr 2024",
+      "location": "Zagreb, Croatia, Remote",
+      "highlights": [
+        "Built secure backend systems handling 100,000+ API requests with zero incidents",
+        "Created context-aware AI agents achieving 90% SQL generation accuracy",
+        "Developed Miksi AI SDK with 200+ downloads and zero critical bugs",
+        "Led team of 3 to 85% sprint completion rate"
+      ],
+      "tech": ["Python", "Django", "Azure", "LangGraph", "LangSmith", "FastAPI", "GitHub Actions", "Celery"]
+    },
+    {
+      "company": "Dowell Research",
+      "role": "Backend Engineer",
+      "type": "HR and CRM",
+      "period": "Oct 2022 - May 2023",
+      "location": "UK, Remote",
+      "highlights": [
+        "Engineered scalable backend systems supporting 1,000+ concurrent users",
+        "Optimized PostgreSQL queries achieving 60% faster response for 10,000+ daily requests",
+        "Implemented JWT authentication handling 50,000+ daily requests with zero breaches",
+        "Built WebSocket-based real-time communication system with 99.9% uptime"
+      ],
+      "tech": ["Python", "Django", "Docker", "Swagger UI", "Channels", "Celery", "Django REST Framework", "WebSockets", "Redis"]
+    },
+    {
+      "company": "Freelance",
+      "role": "Software Engineer",
+      "type": "Various Projects",
+      "period": "May 2020 - Aug 2022",
+      "location": "Remote",
+      "highlights": [
+        "Led end-to-end development of 8+ custom applications maintaining 95% client satisfaction",
+        "Architected scalable solutions reducing client operational costs",
+        "Established autonomous project management framework with zero scope creep",
+        "Implemented data-driven solutions enabling 3x faster decision-making"
+      ],
+      "tech": ["React", "Node.js", "Python", "JavaScript", "MongoDB", "PostgreSQL"]
+    }
+  ],
+  "education": {
+    "degree": "Bachelor of Science in Computer Technology",
+    "institution": "Jomo Kenyatta University of Technology",
+    "location": "Juja, Kenya",
+    "period": "2019 - 2023"
+  },
+  "certifications": [
+    { 
+      "name": "API Security", 
+      "issuer": "API Sec University", 
+      "date": "Nov 2024",
+      "link": "#"
+    },
+    { 
+      "name": "Docker, Kubernetes, Terraform, GitOps", 
+      "issuer": "LinkedIn Learning", 
+      "date": "Nov 2024",
+      "link": "#"
+    }
+  ],
+  "languages": [
+    { "name": "English", "level": "C2" },
+    { "name": "Swahili", "level": "Native" }
+  ],
+  "interests": ["Deep Learning", "Research in AI", "Open Source", "Soccer"]
+}
