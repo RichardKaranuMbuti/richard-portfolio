@@ -1,10 +1,20 @@
 'use client';
 
-import { Mail, Linkedin, Github, Globe, Download, Send } from 'lucide-react';
+import { Mail, Linkedin, Github, Globe, Download, Send, FileDown } from 'lucide-react';
 import resumeData from '@/data/resume.json';
 import MagneticButton from '@/components/ui/MagneticButton';
 
 export default function Contact() {
+  const handleDownloadResume = () => {
+    // Create a link element and trigger download
+    const link = document.createElement('a');
+    link.href = '/richard-karanu-resume.pdf';
+    link.download = 'Richard-Karanu-Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section id="contact" className="relative py-32 px-4">
       <div className="max-w-4xl mx-auto text-center">
@@ -86,8 +96,12 @@ export default function Contact() {
                   <Download className="w-5 h-5 text-purple-400" />
                   <span className="text-gray-400">Resume</span>
                 </div>
-                <button className="text-white font-medium hover:text-purple-400 transition-colors">
-                  Download PDF
+                <button 
+                  onClick={handleDownloadResume}
+                  className="group/btn inline-flex items-center gap-2 text-white font-medium hover:text-purple-400 transition-all"
+                >
+                  <span>Download PDF</span>
+                  <FileDown className="w-4 h-4 group-hover/btn:translate-y-0.5 transition-transform" />
                 </button>
               </div>
             </div>
@@ -107,6 +121,23 @@ export default function Contact() {
                   opportunities
                 </p>
               </div>
+            </div>
+
+            {/* Download Resume CTA Button - Alternative prominent placement */}
+            <div className="mt-8">
+              <MagneticButton>
+                <button
+                  onClick={handleDownloadResume}
+                  className="group relative inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-purple-600/20 to-blue-600/20 rounded-full border border-purple-500/30 text-white font-medium hover:border-purple-500/50 transition-all"
+                >
+                  <FileDown className="w-5 h-5" />
+                  <span>Download Full Resume (PDF)</span>
+                  <span className="absolute -top-1 -right-1 flex h-3 w-3">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-3 w-3 bg-purple-500"></span>
+                  </span>
+                </button>
+              </MagneticButton>
             </div>
           </div>
         </div>

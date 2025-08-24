@@ -4,25 +4,25 @@
     "title": "Senior Full Stack Software Engineer",
     "location": "Nairobi, Kenya",
     "email": "thisforrichard@gmail.com",
-    "linkedin": "https://linkedin.com/in/richardkaranu",
+    "linkedin": "https://www.linkedin.com/in/richard-karanu/",
     "github": "https://github.com/RichardKaranuMbuti",
     "tagline": "Building the Future, One Line at a Time",
     "bio": "Senior Full Stack Engineer with 6+ years of hands-on product experience building and shipping real products in VC-backed startups and high-growth companies. Proven track record of taking complete ownership from concept to deployment."
   },
   "highlights": [
     { "value": "6+", "label": "Years Experience" },
-    { "value": "1000+", "label": "Daily Resumes Processed" },
-    { "value": "75%", "label": "Performance Improvement" },
+    { "value": "100,000+", "label": "Scalable User Sessions per Day" },
+    { "value": "75%", "label": "API Performance Improvement" },
     { "value": "99.9%", "label": "Uptime Achieved" }
   ],
   "skills": {
     "languages": ["Python", "Java", "TypeScript", "JavaScript", "SQL"],
-    "frontend": ["React.js", "Next.js", "Tailwind CSS", "HTML5", "CSS3"],
+    "frontend": ["React.js", "Next.js","React Native", "Tailwind CSS", "HTML5", "CSS3"],
     "backend": ["Django", "Spring Boot", "Node.js", "FastAPI", "Express"],
     "infrastructure": ["AWS", "Azure", "Docker", "Kubernetes", "CI/CD"],
     "databases": ["PostgreSQL", "MongoDB", "Redis", "NoSQL"],
     "ai": ["LangGraph", "LangChain", "OpenAI API", "Azure Cognitive Services"],
-    "learning": ["Go", "Mobile Development", "Agentic Computing"]
+    "learning": ["Go", "Rust", "Terraform"]
   },
   "experience": [
     {
